@@ -7,16 +7,7 @@ import LoadMore from "./components/loadMore/LoadMore";
 import Loader from "./components/loader/Loader";
 import ImageModal from "./components/imageModal/ImageModal";
 import ErrorMessage from "./components/errorMessage/ErrorMessage";
-
-interface Image {
-  id: string;
-  alt_description: string;
-  urls: {
-    small: string;
-    regular: string;
-    full: string;
-  };
-}
+import Image from "./types/image";
 
 const App: React.FC = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
