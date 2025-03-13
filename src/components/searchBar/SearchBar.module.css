@@ -21,6 +21,13 @@
     background-color: rgb(245, 208, 167);
 }
 
+.resetBtn {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+
 @media (max-width: 375px) {
     .searchForm{
         height: 80px;
